@@ -1,14 +1,10 @@
-# demo_pb_08
+# Ej4
 
-Don't forget to install dependencies with: 
+Primero correr el comando: 
 ```
 npm i
 ```
-To run the project with node
+Para levantar el proyecto:
 ```
 npm start
-```
-To run the project with nodemon (you must have nodemon installed globally on your device)
-```
-npm run start-dev
 ```
