@@ -1,0 +1,41 @@
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+crossorigin="anonymous"
+/>
+
+<% const hayProductos = productos.length > 0; %>
+<% if(hayProductos){ %>
+    <div class="container mt-3">
+        <h2 style="color:rgb(49, 2, 11);">Productos</h2>
+        <div class="jumbotron">
+<div class="table-responsive">
+    <table class="table table-dark">
+        <tr style="color: rgb(0, 255, 42);">
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>
+        <% for (const producto of productos) {%>
+        <tr>
+            <td>
+                <%=producto.producto%>
+            </td>
+            <td>
+                <%=producto.precio%>
+            </td>
+            <td>
+            <img src= "<%=producto.imagen%>" width="50" height="50"  >
+            </img>
+        </td>
+        </tr>
+        <%};%>
+    </table>
+</div>
+<% } else{ %>
+<h3 class="alert alert-danger">No hay productos</h1>
+    <% } %>
+    <a href="/ejs">Inicio</a>
+    </div>
+    </div>
