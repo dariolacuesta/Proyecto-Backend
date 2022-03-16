@@ -1,0 +1,23 @@
+{
+	"name": "ej8",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "node src/main.js",
+		"createdb": "node create-table.js",
+		"createsqlite": " node create-tableSqlite.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^5.2.0",
+		"knex": "^0.95.15",
+		"mysql": "^2.18.1",
+		"pg": "^8.7.3",
+		"socket.io": "^4.1.3",
+		"sqlite3": "^5.0.2"
+	}
+}
