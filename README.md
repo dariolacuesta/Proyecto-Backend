@@ -7,7 +7,7 @@ Para probar el 'Validator' basta con cambiar de true a false la variable que se 
 
 ## EJERCICIO 8
 
-Inicializar con ###npm-i
+Inicializar con ### `npm-i`
 
 Crear una base de datos en Mysql
 
