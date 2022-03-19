@@ -1,6 +1,6 @@
 const { promises: fs } = require("fs");
-// const dbconfig = require("../db/config");
-// const knex = require("knex")(dbconfig.sqlite);
+const dbconfig = require("../db/config");
+const knex = require("knex")(dbconfig.sqlite);
 
 class ContenedorArchivo {
 	constructor(ruta) {
@@ -14,51 +14,23 @@ class ContenedorArchivo {
 	}
 
 	async listarAll() {
-		// try {
-		// 	const messages = await knex.from("ecommerceChat").select("*");
-		// 	console.log(messages);
-		// 	return messages;
-		// } catch (error) {
-		// 	console.log(error);
-		// 	throw error;
-		// } finally {
-		// 	knex.destroy();
-		// }
 		try {
-			const objs = await fs.readFile(this.ruta, "utf-8");
-			return JSON.parse(objs);
+			const messages = await knex.from("ecommerceChat").select("*");
+			console.log(messages);
+			return messages;
 		} catch (error) {
-			return [];
+			console.log(error);
+			throw error;
 		}
 	}
 
 	async guardar(obj) {
-		// try {
-		// 	await knex("ecommerceChat").insert(obj);
-		// 	console.log("Data Inserted");
-		// } catch (error) {
-		// 	console.log(error);
-		// 	throw error;
-		// } finally {
-		// 	knex.destroy();
-		// }
-		const objs = await this.listarAll();
-
-		let newId;
-		if (objs.length == 0) {
-			newId = 1;
-		} else {
-			newId = objs[objs.length - 1].id + 1;
-		}
-
-		const newObj = { ...obj, id: newId };
-		objs.push(newObj);
-
 		try {
-			await fs.writeFile(this.ruta, JSON.stringify(objs, null, 2));
-			return newId;
+			await knex("ecommerceChat").insert(obj);
+			console.log("Data Inserted");
 		} catch (error) {
-			throw new Error(`Error al guardar: ${error}`);
+			console.log(error);
+			throw error;
 		}
 	}
 

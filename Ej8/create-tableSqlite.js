@@ -9,7 +9,7 @@ const knex = require("knex")(dbconfig.sqlite);
 				table.increments("id"); // id => primary key
 				table.string("autor");
 				table.string("texto");
-				// table.string("fyh");
+				table.string("fyh");
 			});
 			console.log("Table Created!");
 		} else {

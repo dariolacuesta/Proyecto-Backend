@@ -3,9 +3,9 @@ const knex = require("knex")(dbconfig.mariaDB);
 
 (async () => {
 	try {
-		const tableExist = await knex.schema.hasTable("ecommerce");
+		const tableExist = await knex.schema.hasTable("ecommerceProducts");
 		if (!tableExist) {
-			await knex.schema.createTable("ecommerce", (table) => {
+			await knex.schema.createTable("ecommerceProducts", (table) => {
 				table.increments("id"); // id => primary key
 				table.string("title");
 				table.integer("price");

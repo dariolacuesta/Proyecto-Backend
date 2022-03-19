@@ -1,41 +1,47 @@
 const express = require("express");
-
 const { Server: HttpServer } = require("http");
+const cors = require("cors");
 const { Server: Socket } = require("socket.io");
-
+const path = require("path");
+const Routes = require("../routes/index");
+const dbconfig = require("../db/config");
 const ContenedorMemoria = require("../contenedores/ContenedorMemoria.js");
 const ContenedorArchivo = require("../contenedores/ContenedorArchivo.js");
 
-//--------------------------------------------
-// instancio servidor, socket y api
+const productosApi = new ContenedorMemoria(
+	dbconfig.mariaDB,
+	"ecommerceProducts"
+);
+const mensajesApi = new ContenedorArchivo("mensajes.json");
 
-//------------------------
 const app = express();
 const httpServer = new HttpServer(app);
 const io = new Socket(httpServer);
 
-const productosApi = new ContenedorMemoria();
-const mensajesApi = new ContenedorArchivo("mensajes.json");
+//MiddleWares
+app.use(cors());
+app.use(express.static(path.resolve(__dirname, "../public")));
 
-//--------------------------------------------
-// configuro el socket
+//Routes
+app.use("/api", Routes);
+app.use("/*", (req, res) => {
+	res.send({ success: false, error: "Wrong Route" });
+});
+
+//Socket
 
 io.on("connection", async (socket) => {
 	console.log("Nuevo cliente conectado!");
 
-	// carga inicial de productos
 	socket.emit("productos", await productosApi.listarAll());
 
-	// actualizacion de productos
-	socket.on("update", (producto) => {
-		productosApi.guardar(producto);
-		io.sockets.emit("productos", productosApi.listarAll());
+	socket.on("update", async (producto) => {
+		await productosApi.guardar(producto);
+		io.sockets.emit("productos", await productosApi.listarAll());
 	});
 
-	// carga inicial de mensajes
 	socket.emit("mensajes", await mensajesApi.listarAll());
 
-	// actualizacion de mensajes
 	socket.on("nuevoMensaje", async (mensaje) => {
 		mensaje.fyh = new Date().toLocaleString();
 		await mensajesApi.guardar(mensaje);

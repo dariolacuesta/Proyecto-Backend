@@ -1,86 +1,69 @@
-const dbconfig = require("../db/config");
-const knex = require("knex")(dbconfig.mariaDB);
-
 class ContenedorMemoria {
-	constructor() {
-		this.elementos = [];
-		this.id = 0;
+	constructor(config, nameTable) {
+		this.knex = require("knex")(config);
+		this.table = nameTable;
 	}
 
 	async listar(id) {
 		try {
-			const products = await knex
-				.from("ecommerce")
+			const products = await this.knex
+				.from(this.table)
 				.select("*")
 				.where({ id: id });
 			return products;
 		} catch (error) {
 			console.log(error);
 			throw error;
-		} finally {
-			knex.destroy();
 		}
 	}
 
 	async listarAll() {
 		try {
-			const products = await knex.from("ecommerce").select("*");
-			console.log(products);
+			const products = await this.knex.from(this.table).select("*");
+			console.table(products);
 			return products;
 		} catch (error) {
 			console.log(error);
 			throw error;
-		} finally {
-			knex.destroy();
 		}
 		// return [...this.elementos];
 	}
 
 	async guardar(elem) {
-		console.log(elem);
 		try {
-			await knex("ecommerce").insert(elem);
-			console.log("Data Inserted");
+			await this.knex(this.table).insert(elem);
 		} catch (error) {
 			console.log(error);
 			throw error;
-		} finally {
-			knex.destroy();
 		}
 	}
 
 	async actualizar(elem, id) {
 		try {
-			await knex.from("ecommerce").where({ id: id }).update({ elem });
+			await this.knex.from(this.table).where({ id: id }).update({ elem });
 		} catch (error) {
 			console.log(error);
 			throw error;
-		} finally {
-			knex.destroy();
 		}
 	}
 
 	async borrar(id) {
 		try {
-			await knex.from("ecommerce").where({ id: id }).del();
+			await this.knex.from(this.table).where({ id: id }).del();
 			console.log("Data Erased");
 		} catch (error) {
 			console.log(error);
 			throw error;
-		} finally {
-			knex.destroy();
 		}
 	}
 
 	async borrarAll() {
 		try {
-			await knex.from("ecommerce").del();
+			await this.knex.from(this.table).del();
 			console.log("Data Erased");
 		} catch (error) {
 			console.log(error);
 			throw error;
-		} finally {
-			knex.destroy();
 		}
 	}
 }
