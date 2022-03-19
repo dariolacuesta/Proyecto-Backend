@@ -11,11 +11,11 @@ Inicializar con ###npm-i
 
 Crear una base de datos en Mysql
 
-### CREATE DATABASE test2
+### `CREATE DATABASE test2`
 
 Para crear las tablas en las bases de datos ejecutar los scripts 
 
-### node create-table 
+### `node create-table` 
 
-### node create-tableSqlite
+### `node create-tableSqlite`
 
