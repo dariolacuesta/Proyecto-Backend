@@ -1,0 +1,12 @@
+[
+	{ "title": "Escuadra", "price": 500 },
+	{ "title": "Calculadora", "price": 200 },
+	{ "title": "Globo terraqueo", "price": 1000 },
+	{ "title": "Monitor", "price": 30000 },
+	{ "title": "Regla", "price": 200 },
+	{ "title": "Tablero", "price": 12000 },
+	{ "title": "Mouse", "price": 1500 },
+	{ "title": "Hojas", "price": 500 },
+	{ "title": "Lapiceras", "price": 200 },
+	{ "title": "Pizarron", "price": 8000 }
+]
