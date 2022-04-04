@@ -1,6 +1,9 @@
 const { urlencoded } = require("express");
 const express = require("express");
-const routerIndex = require("./router/indexRoutes");
+const {
+	ENV: { PORT },
+} = require("./config");
+const routerIndex = require("./routers/indexRoutes");
 const app = express();
 
 //Midleware
@@ -11,7 +14,6 @@ app.use("/api", routerIndex);
 
 /* ------------------------------------------------------ */
 /* Server Listen */
-const PORT = 8080;
 const server = app.listen(PORT, () => {
 	console.log(`Servidor escuchando en el puerto ${server.address().port}`);
 });

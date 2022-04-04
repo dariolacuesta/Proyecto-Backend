@@ -1,8 +1,8 @@
 const { Router } = require("express");
-const archivo = require("../clases/productos/archivo");
-const Productos = require("../clases/productos/productos");
+const archivo = require("../../clases/productos/archivo");
+const Productos = require("../../clases/productos/productos");
 const routerProductos = Router();
-const authorizer = require("../middlewares/authorization");
+const authorizer = require("../../middlewares/authorization");
 
 routerProductos.get("/", async (req, res) => {
 	const listaProductos = await archivo.read();
