@@ -37,9 +37,19 @@ authWebRouter.get("/register", (req, res) => {
 });
 
 authWebRouter.get("/logout", (req, res) => {
+	const nombre = req.user;
 	req.logOut();
 	console.log("Logout");
-	res.redirect("/login");
+	res.render(path.join(process.cwd(), "/views/pages/logout.ejs"), {
+		nombre: nombre.email,
+	});
+});
+
+authWebRouter.get("/register-error", (req, res) => {
+	res.render(path.join(process.cwd(), "/views/pages/register-error.ejs"));
+});
+authWebRouter.get("/login-error", (req, res) => {
+	res.render(path.join(process.cwd(), "/views/pages/login-error.ejs"));
 });
 
 authWebRouter.post(
