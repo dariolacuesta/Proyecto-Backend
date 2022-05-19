@@ -1,7 +1,7 @@
 const config = require("../config");
 
-const ContenedorSQL = require("../contenedores/ContenedorSQL");
+const ContenedorFirebaseProducts = require("../contenedores/ContenedorFirebase");
 
-const productosApi = new ContenedorSQL(config.mariaDB, "ecommerceProducts");
+const productosApi = new ContenedorFirebaseProducts("productos");
 
 module.exports = productosApi;

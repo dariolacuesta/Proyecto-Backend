@@ -12,9 +12,11 @@ class ContenedorFirebase {
 	}
 
 	connect() {
-		admin.initializeApp({
-			credential: admin.credential.cert(firebase.credential),
-		});
+		if (admin.apps.length === 0) {
+			admin.initializeApp({
+				credential: admin.credential.cert(firebase.credential),
+			});
+		}
 		console.log("Connected to Firestore");
 	}
 

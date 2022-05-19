@@ -17,13 +17,12 @@ const cluster = require("cluster");
 
 //--------------------------------------------
 //PUERTO
+const PORT = process.env.PORT || 8080;
 const args = minimist(process.argv.slice(2), {
 	default: {
-		PORT: 8080,
 		MODE: "FORK",
 	},
 	alias: {
-		p: "PORT",
 		m: "MODE",
 	},
 });
@@ -92,10 +91,10 @@ function initiateServer() {
 	//--------------------------------------------
 	// inicio el servidor
 
-	httpServer.listen(args.PORT, async () => {
+	httpServer.listen(PORT, async () => {
 		mongoose.connect(config.mongodb.connectTo("users")).then(() => {
 			console.log("Connected to DB!");
-			console.log("Server is up and running on port: ", args.PORT);
+			console.log("Server is up and running on port: ", PORT);
 		});
 	});
 }
