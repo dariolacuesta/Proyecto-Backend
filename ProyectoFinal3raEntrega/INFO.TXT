@@ -1,3 +1,18 @@
+
+
+Para correr el proyecto hay que llenar los datos en el archivo .env 
+
+SESSION_SECRET =
+DB_PASSWORD = 
+PORT = 8080
+ADMIN_PHONE = 
+MAILER_EMAIL =
+DB_PASS=
+MAILER_PASS=
+TWILIO_SID =
+TWILIO_TOKEN = 
+TWILIO_PHONE = 
+
 PARA CORRER EN EL PUERTO DESEADO EJECUTAR EL SCRIPT
 
 npm start -- -p 'ACA INGRESAR PUERTO'
