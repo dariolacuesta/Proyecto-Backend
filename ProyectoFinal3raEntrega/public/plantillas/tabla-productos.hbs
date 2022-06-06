@@ -1,0 +1,33 @@
+<style>
+	.table td, .table th { vertical-align: middle; }
+</style>
+
+{{#if productos.length}}
+	<h2>Lista de Productos</h2>
+	<div class="table-responsive">
+		<table class="table table-dark">
+			<tr>
+				<th>Nombre</th>
+				<th>Precio</th>
+				<th>Foto</th>
+			</tr>
+			{{#each productos}}
+				<tr>
+					<td>{{this.title}}</td>
+					<td>${{this.price}}</td>
+					<td>{{this._id}}</td>
+					<td><img width="50" src={{this.thumbnail}} alt="not found" /></td>
+					<td><form
+							action="/add?id={{this._id}}"
+							method="post"
+							style="width: 65%; margin: auto;"
+						>
+							<div>
+							</div>
+							<button type="submit" class="btn btn-success">Añadir al carrito</button>
+						</form></td>
+				</tr>
+			{{/each}}
+		</table>
+	</div>
+{{/if}}

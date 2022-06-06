@@ -1,0 +1,1470 @@
+[2022-05-29T13:53:41.699] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cart validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required., author.phone: Path `author.phone` is required., author.lastname: Path `author.lastname` is required.","data":null}
+[2022-05-29T13:57:26.990] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cart validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required., author.phone: Path `author.phone` is required.","data":null}
+[2022-05-29T13:59:57.461] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cart validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required., author.phone: Path `author.phone` is required.","data":null}
+[2022-05-29T14:03:38.535] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cart validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required., author.phone: Path `author.phone` is required.","data":null}
+[2022-05-29T14:05:40.838] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cart validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required., author.phone: Path `author.phone` is required.","data":null}
+[2022-05-29T14:07:25.297] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cart validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required.","data":null}
+[2022-05-29T14:12:39.374] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"User validation failed: email: Path `email` is required.","data":null}
+[2022-05-29T14:13:55.247] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"User validation failed: email: Path `email` is required.","data":null}
+[2022-05-29T14:16:34.273] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"User validation failed: email: Path `email` is required.","data":null}
+[2022-05-29T14:18:11.147] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-05-29T14:19:40.520] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-05-29T14:20:57.253] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-05-29T14:21:22.596] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-05-29T14:22:08.574] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-05-29T14:23:22.320] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-05-29T14:25:01.180] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293ac4d5cb8805b038562d8 does not exist in our records","data":null}
+[2022-05-29T14:25:14.500] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293ac4d5cb8805b038562d8 does not exist in our records","data":null}
+[2022-05-29T14:25:42.682] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:32:50.937] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:35:49.011] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:39:45.741] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:44:23.150] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:49:07.010] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:51:18.258] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-05-29T14:54:07.240] [ERROR] error - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials cd7-20020a056808318700b0032ae369c25esm3736660oib.53 - gsmtp
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials cd7-20020a056808318700b0032ae369c25esm3736660oib.53 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-05-29T14:55:44.304] [ERROR] error - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e20-20020a05680809b400b0032b958e1c5esm3700780oig.58 - gsmtp
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials e20-20020a05680809b400b0032b958e1c5esm3700780oig.58 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-05-29T15:00:41.621] [ERROR] error - Error: connect ECONNREFUSED 127.0.0.1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 587,
+  command: 'CONN'
+}
+[2022-05-29T15:02:37.855] [ERROR] error - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor i3-20020a4a9283000000b0035eb4e5a6bdsm4172563ooh.19 - gsmtp
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor i3-20020a4a9283000000b0035eb4e5a6bdsm4172563ooh.19 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2022-05-29T15:09:58.515] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293b6cadc455e6524d753ab does not exist in our records","data":null}
+[2022-05-29T15:10:06.814] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293b6cadc455e6524d753ab does not exist in our records","data":null}
+[2022-05-29T15:10:17.271] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293b6cadc455e6524d753ab does not exist in our records","data":null}
+[2022-05-29T17:26:33.355] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '%3C%=%20product._id%20%%3E' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-05-29T17:31:54.806] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '%3C%=%20product._id%20%%3E' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-05-29T17:32:11.043] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '%3C%=%20product._id%20%%3E' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-05-29T17:32:57.206] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '%3C%=%20product._id%20%%3E' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-05-29T19:48:07.062] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ '0e9b9e41-0494-4de4-8557-b3613f63e44b' ]\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T19:52:54.813] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ '0e9b9e41-0494-4de4-8557-b3613f63e44b' ]\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T19:54:02.507] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_843979-MLA31590890320_072019-O.jpg',\\n\" +\n  \"    title: 'Like a Virgin',\\n\" +\n  \"    id: '0e9b9e41-0494-4de4-8557-b3613f63e44b',\\n\" +\n  \"    price: '1700'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:00:34.772] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    id: '0e9b9e41-0494-4de4-8557-b3613f63e44b',\\n\" +\n  \"    price: '1700',\\n\" +\n  \"    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_843979-MLA31590890320_072019-O.jpg',\\n\" +\n  \"    title: 'Like a Virgin'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:01:54.741] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    id: '0e9b9e41-0494-4de4-8557-b3613f63e44b',\\n\" +\n  \"    price: '1700',\\n\" +\n  \"    title: 'Like a Virgin',\\n\" +\n  \"    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_843979-MLA31590890320_072019-O.jpg'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:02:44.981] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    id: '0e9b9e41-0494-4de4-8557-b3613f63e44b',\\n\" +\n  \"    price: '1700',\\n\" +\n  \"    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_843979-MLA31590890320_072019-O.jpg',\\n\" +\n  \"    title: 'Like a Virgin'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:05:08.461] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    title: 'Like a Virgin',\\n\" +\n  \"    price: '1700',\\n\" +\n  \"    id: '0e9b9e41-0494-4de4-8557-b3613f63e44b',\\n\" +\n  \"    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_843979-MLA31590890320_072019-O.jpg'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:12:43.798] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ '0e9b9e41-0494-4de4-8557-b3613f63e44b' ]\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:31:51.767] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293bbb49e290ea2983dd820 does not exist in our records","data":null}
+[2022-05-29T20:32:31.066] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"Resource with id 6293bbb49e290ea2983dd820 does not exist in our records","data":null}
+[2022-05-29T20:34:38.168] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ '0e9b9e41-0494-4de4-8557-b3613f63e44b' ]\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:35:40.185] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ 'ID', '0e9b9e41-0494-4de4-8557-b3613f63e44b' ]\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:45:00.452] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ '0e9b9e41-0494-4de4-8557-b3613f63e44b' ]\" (type string) at path \"products.0\"","data":null}
+[2022-05-29T20:58:47.040] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    id: '0e9b9e41-0494-4de4-8557-b3613f63e44b',\\n\" +\n  \"    price: '1700',\\n\" +\n  \"    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_843979-MLA31590890320_072019-O.jpg',\\n\" +\n  \"    title: 'Like a Virgin'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"products.0\"","data":null}
+[2022-06-05T12:28:51.457] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:29:37.813] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:34:58.333] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:35:38.575] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:36:06.204] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:36:54.922] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:37:33.296] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:39:23.373] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:43:08.377] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:43:31.967] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T12:45:45.312] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to [ObjectId] failed for value \"[ '' ]\" (type string) at path \"products.0\"","data":null}
+[2022-06-05T12:49:18.127] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"Cast to ObjectId failed for value \"{ _id: '' }\" (type Object) at path \"_id\" for model \"Product\"","data":null}
+[2022-06-05T14:16:38.027] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T14:16:38.155] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:62940d8f3b3ea060d7d23d82","data":null}
+[2022-06-05T14:26:22.618] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:629ce71d6b08aac5831390f0","data":null}
+[2022-06-05T14:26:45.573] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:629ce71d6b08aac5831390f0","data":null}
+[2022-06-05T14:37:49.386] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:63:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-05T14:37:49.429] [ERROR] error - ReferenceError: handlebars is not defined
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:59:20)
+    at buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:71:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-05T14:37:50.258] [ERROR] error - RestException [Error]: A text message body or media urls must be specified.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21619,
+  moreInfo: 'https://www.twilio.com/docs/errors/21619',
+  details: undefined
+}
+[2022-06-05T14:59:14.000] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T14:59:15.114] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T14:59:16.021] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:02:42.775] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:02:43.565] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:02:44.290] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:02:53.649] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:02:54.271] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:02:55.033] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:02:58.743] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:02:59.215] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:02:59.973] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:03:24.161] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:03:24.579] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:03:25.311] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:04:13.869] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:04:14.387] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:04:15.134] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:04:30.362] [ERROR] error - RestException [Error]: The 'To' number 1161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:04:30.899] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:04:31.636] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:20:26.731] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:25:38.072] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:31:41.684] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:33:38.059] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:36:46.787] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:41:18.668] [ERROR] error - {"error":true,"success":false,"statusTag":"[INTERNAL ERROR]","statusCode":500,"message":"E11000 duplicate key error collection: users.users index: email_1 dup key: { email: \"dario.lacuesta@hotmail.com\" }","data":null}
+[2022-06-05T15:48:22.197] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:49:56.720] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:50:04.993] [ERROR] error - RestException [Error]: The 'To' number 541161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T15:50:06.021] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:50:06.784] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T15:53:41.841] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T15:55:58.094] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T16:01:07.937] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-05T16:02:51.306] [ERROR] error - RestException [Error]: The From phone number +12406475895 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-06-05T16:02:54.668] [ERROR] error - ReferenceError: adminWppMessage is not defined
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:72:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:02:55.444] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:06:56.043] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:629cfeaa026d3b4844e2059f","data":null}
+[2022-06-05T16:07:04.826] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:629cfeaa026d3b4844e2059f","data":null}
+[2022-06-05T16:07:32.024] [ERROR] error - RestException [Error]: The From phone number +12406475895 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-06-05T16:07:34.238] [ERROR] error - ReferenceError: adminWppMessage is not defined
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:72:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:73:3)
+[2022-06-05T16:07:34.990] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:08:44.754] [ERROR] error - RestException [Error]: The From phone number +12406475895 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-06-05T16:08:46.782] [ERROR] error - ReferenceError: adminWppMessage is not defined
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:72:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:73:3)
+[2022-06-05T16:08:47.542] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:12:26.190] [ERROR] error - RestException [Error]: The From phone number +12406475895 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-06-05T16:12:28.484] [ERROR] error - ReferenceError: adminWppMessage is not defined
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:69:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:73:3)
+[2022-06-05T16:12:29.209] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:16:11.989] [ERROR] error - RestException [Error]: The From phone number +12406475895 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-06-05T16:16:14.770] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:16:14.772] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:16:15.524] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:17:57.844] [ERROR] error - RestException [Error]: The 'To' number +541161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T16:18:00.601] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:18:00.604] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:18:01.378] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:22:40.774] [ERROR] error - RestException [Error]: The 'To' number +541161667801 is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-05T16:22:44.150] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:22:44.153] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:22:44.951] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:26:25.731] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:26:25.734] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:26:26.463] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:29:16.668] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:29:16.671] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:29:17.430] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:32:12.135] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:32:12.138] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:32:12.901] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:37:59.270] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:37:59.272] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:38:00.043] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:40:50.339] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:40:50.341] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:40:51.087] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:49:16.064] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:49:16.067] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:49:16.812] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:50:17.967] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:50:17.970] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:50:18.713] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:51:38.531] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:51:38.534] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:51:39.305] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:54:17.510] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:54:17.512] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:54:18.264] [ERROR] error - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-05T16:55:53.766] [ERROR] error - RestException [Error]: The 'From' number  is not a valid phone number, shortcode, or alphanumeric sender ID.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21212,
+  moreInfo: 'https://www.twilio.com/docs/errors/21212',
+  details: undefined
+}
+[2022-06-05T16:55:53.768] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:55:54.466] [ERROR] error - RestException [Error]: The 'From' number  is not a valid phone number, shortcode, or alphanumeric sender ID.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21212,
+  moreInfo: 'https://www.twilio.com/docs/errors/21212',
+  details: undefined
+}
+[2022-06-05T16:56:58.142] [ERROR] error - RestException [Error]: The 'From' number  is not a valid phone number, shortcode, or alphanumeric sender ID.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21212,
+  moreInfo: 'https://www.twilio.com/docs/errors/21212',
+  details: undefined
+}
+[2022-06-05T16:56:58.144] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-05T16:56:58.806] [ERROR] error - RestException [Error]: The 'From' number  is not a valid phone number, shortcode, or alphanumeric sender ID.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21212,
+  moreInfo: 'https://www.twilio.com/docs/errors/21212',
+  details: undefined
+}
+[2022-06-06T19:32:58.174] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-06T19:39:44.764] [ERROR] error - RestException [Error]: The 'To' number +541161667801} is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-06T19:39:44.766] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-06T19:40:47.044] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-06T19:45:02.266] [ERROR] error - RestException [Error]: The 'To' number whatsapp:undefined is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-06T19:45:02.268] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:29:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-06T19:45:38.158] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:629e8364848f46fe6f8ef2f8","data":null}
+[2022-06-06T19:46:04.984] [ERROR] error - RestException [Error]: The 'To' number whatsapp:undefined is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-06T19:46:04.986] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:71:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-06T19:47:33.105] [ERROR] error - RestException [Error]: The 'To' number whatsapp:undefined is not a valid phone number.
+    at success (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\asap.js:40:19)
+    at flush (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-06T19:47:33.107] [ERROR] error - Error: Required parameter "opts['to']" missing.
+    at Function.create (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\node_modules\twilio\lib\rest\api\v2010\account\message.js:109:13)
+    at smsClient (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\twilio.config.js:30:55)
+    at newPurchase (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\utils\nodemailer.js:72:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async buyCart (E:\Desarrollo\CoderHouse\Backend\Ejercicios\Proyecto-Backend\ProyectoFinal3raEntrega\src\controllers\cartController.js:72:3)
+[2022-06-06T19:48:20.405] [ERROR] error - {"error":true,"success":false,"statusTag":"[NOT FOUND]","statusCode":404,"message":"No existe el recurso con id:629e83fd0b598d43025ce595","data":null}

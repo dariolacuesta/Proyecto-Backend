@@ -1,0 +1,15 @@
+<h3>Productos vendidos</h3>
+<div>
+	<table>
+		<tr>
+			<th>Titulo</th>
+			<th>Precio</th>
+		</tr>
+		{{#each products}}
+			<tr>
+				<td>{{this.title}}</td>
+				<td>{{this.price}}</td>
+			</tr>
+		{{/each}}
+	</table>
+</div>
