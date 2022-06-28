@@ -23,3 +23,17 @@
 [2022-06-12T12:48:53.645] [INFO] infoFile - Route: /dar. Method: GET
 [2022-06-12T12:48:54.847] [INFO] infoFile - Route: /logout. Method: GET
 [2022-06-12T12:48:56.940] [INFO] infoFile - Route: /. Method: GET
+[2022-06-19T15:04:34.579] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-19T15:04:34.605] [INFO] infoFile - Route: /home. Method: GET
+[2022-06-19T15:04:34.610] [INFO] infoFile - Route: /. Method: GET
+[2022-06-19T15:04:38.126] [INFO] infoFile - Route: /login. Method: POST
+[2022-06-19T15:04:38.548] [INFO] infoFile - Route: /home. Method: GET
+[2022-06-19T15:04:39.598] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-19T15:05:21.253] [INFO] infoFile - Route: /home. Method: GET
+[2022-06-19T15:05:22.404] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-19T15:05:26.941] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-19T15:05:27.396] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-19T15:05:32.849] [INFO] infoFile - Route: /dasda. Method: GET
+[2022-06-19T15:05:32.851] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-19T15:05:34.472] [INFO] infoFile - Route: /dasda. Method: GET
+[2022-06-19T15:05:34.479] [INFO] infoFile - Route: /dar. Method: GET
