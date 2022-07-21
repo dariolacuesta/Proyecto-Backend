@@ -17,7 +17,7 @@ class ContenedorFirebase {
 				credential: admin.credential.cert(firebase.credential),
 			});
 		}
-		console.log("Connected to Firestore");
+		console.log(`Connected to Firestore`);
 	}
 
 	async listar(id) {

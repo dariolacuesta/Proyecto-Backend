@@ -12,6 +12,8 @@ module.exports = {
 	mongodb: {
 		connectTo: (database) =>
 			`mongodb+srv://darioLacuesta:${env.DB_PASSWORD}@ecommerce.gohoj.mongodb.net/${database}?retryWrites=true&w=majority`,
+		connect: () =>
+			`mongodb+srv://darioLacuesta:${env.DB_PASSWORD}@ecommerce.gohoj.mongodb.net/${env.DB_NAME}?retryWrites=true&w=majority`,
 	},
 	mariaDB: {
 		client: "mysql",

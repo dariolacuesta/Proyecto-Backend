@@ -1,5 +1,4 @@
-const passport = require("../middlewares/passport");
-
+const path = require("path");
 const redirectLogin = (req, res) => {
 	const nombre = req.user;
 	if (nombre) {
@@ -34,25 +33,10 @@ const renderLoginError = (req, res) => {
 	res.render(path.join(process.cwd(), "/views/pages/login-error.ejs"));
 };
 
-const postLogin = (req, res) => {
-	passport.authenticate("login", { failureRedirect: "/login-error" }),
-		async (req, res) => {
-			res.redirect("/home");
-		};
-};
-const postRegister = (req, res) => {
-	passport.authenticate("register", { failureRedirect: "/register-error" }),
-		async (req, res) => {
-			res.redirect("/home");
-		};
-};
-
 module.exports = {
 	renderLogout,
 	redirectRegister,
 	redirectLogin,
 	renderLoginError,
 	renderRegisterError,
-	postLogin,
-	postRegister,
 };

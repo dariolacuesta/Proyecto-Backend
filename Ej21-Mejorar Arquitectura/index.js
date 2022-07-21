@@ -1,8 +1,10 @@
 const minimist = require("minimist");
+const mongoose = require("mongoose");
 const os = require("os");
 const cluster = require("cluster");
 const server = require("./server");
 const config = require("./src/config/env.config");
+const config2 = require("./src/DB/config");
 //--------------------------------------------
 //PUERTO
 const PORT = process.env.PORT || 8080;
@@ -32,6 +34,7 @@ if (args.MODE == "CLUSTER") {
 
 // inicio el servidor
 httpServer.listen(PORT, async () => {
+	mongoose.connect(config2.mongodb.connectTo("users"));
 	console.log("Server is up and running on port: ", PORT);
 	console.log(`Using ${config.DATA_SOURCE} as project's data source`, PORT);
 });

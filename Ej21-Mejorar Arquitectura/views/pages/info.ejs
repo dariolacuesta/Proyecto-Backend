@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Formulario de Ingreso de Productos</title>
+		<title>Info</title>
 		<script src="/socket.io/socket.io.js"></script>
 		<link
 			rel="stylesheet"
@@ -27,12 +27,12 @@
 				<div class="jumbotron">
 					<h1>Información</h1>
 					<br />
-					<h3>Argumentos de entrada: <%= args %></h3>
 					<h3>Nombre de la plataforma: <%= so %></h3>
-					<h3>Version de node: <%= node %></h3>
-					<h3>Memoria total reservada: <%= memory %></h3>
 					<h3>Process ID: <%= id %></h3>
+					<h3>Memoria total reservada: <%= memory %></h3>
 					<h3>Carpeta del proyecto: <%= directory %></h3>
+					<h3>Version de node: <%= node %></h3>
+					<h3>Argumentos de entrada: <%= args %></h3>
 					<h3>Cantidad de nucleos: <%= numCPUs %></h3>
 				</div>
 				<button

@@ -5,8 +5,6 @@ const {
 	renderLogout,
 	renderRegisterError,
 	renderLoginError,
-	postLogin,
-	postRegister,
 } = require("../../controllers/session.controller");
 const router = express.Router();
 
@@ -16,7 +14,5 @@ router.get("/register", redirectRegister);
 router.get("/logout", renderLogout);
 router.get("/login-error", renderLoginError);
 router.get("register-error", renderRegisterError);
-router.post("/register", postRegister);
-router.post("/login", postLogin);
 
 module.exports = router;

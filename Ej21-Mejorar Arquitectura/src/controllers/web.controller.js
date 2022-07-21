@@ -10,12 +10,12 @@ const renderInfo = (req, res) => {
 		node: process.version,
 		memory: process.memoryUsage().heapUsed,
 		args: arguments().slice(2),
-		numCPUs: require(os).cpus().length,
+		numCPUs: os.cpus().length,
 	});
 };
 const renderHome = (req, res) => {
 	res.render(path.join(process.cwd(), "/views/pages/home.ejs"), {
-		nombre: req.session.nombre,
+		nombre: req.user.email,
 	});
 };
 

@@ -37,3 +37,7 @@
 [2022-06-19T15:05:32.851] [INFO] infoFile - Route: /dar. Method: GET
 [2022-06-19T15:05:34.472] [INFO] infoFile - Route: /dasda. Method: GET
 [2022-06-19T15:05:34.479] [INFO] infoFile - Route: /dar. Method: GET
+[2022-06-28T00:47:43.243] [INFO] infoFile - Route: /. Method: GET
+[2022-06-28T00:47:47.109] [INFO] infoFile - Route: /login. Method: POST
+[2022-06-28T00:47:48.073] [INFO] infoFile - Route: /home. Method: GET
+[2022-06-28T00:47:51.627] [INFO] infoFile - Route: /info. Method: GET

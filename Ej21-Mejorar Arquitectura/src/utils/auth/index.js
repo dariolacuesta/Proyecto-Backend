@@ -12,6 +12,12 @@ const apiAuth = async (req, res, next) => {
 		res.redirect("/login");
 	}
 };
+const apiSuccessResponse = (data, statusCode = 200) => {
+	return {
+		error: false,
+		statusCode,
+		data,
+	};
+};
 
-module.exports = webAuth;
-module.exports = apiAuth;
+module.exports = { apiAuth, webAuth, apiSuccessResponse };

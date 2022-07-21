@@ -3,7 +3,6 @@ const session = require("express-session");
 const Mongostore = require("connect-mongo");
 const http = require("http");
 const socketIO = require("socket.io");
-const productosApiRouter = require("./src/routers/api/productos.js");
 const routerIndex = require("./src/routers/index");
 const passport = require("./src/middlewares/passport");
 const addMensajesHandlers = require("./src/routers/sockets/mensajes.js");
@@ -46,12 +45,6 @@ const server = () => {
 	);
 	app.use(passport.initialize());
 	app.use(passport.session());
-	//--------------------------------------------
-	// rutas del servidor API REST
-
-	app.use(productosApiRouter);
-
-	//--------------------------------------------
 	// rutas del servidor web
 
 	app.use(routerIndex);
