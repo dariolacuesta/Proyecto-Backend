@@ -1,5 +1,5 @@
 {
-  "name": "desafio-20",
+  "name": "desafio-24",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -28,7 +28,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/desafio-20.git"
+    "url": "git://github.com/anonymous node/sails user/desafio-24.git"
   },
   "author": "anonymous node/sails user",
   "license": "",
